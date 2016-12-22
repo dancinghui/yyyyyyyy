@@ -1,0 +1,2 @@
+2016-12-20 17:07:41 FAIL : req https://search.jd.com/Search?keyword=%E9%80%94%E8%99%8E%E8%BD%AE%E8%83%8E&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&stock=1&s=1621&click=0&page=1 proxy=, err= <class 'pycurl.error'> (28, 'Connection timed out after 30000 milliseconds')
+2016-12-20 17:49:40 FAIL : req https://search.jd.com/Search?keyword=途虎轮胎&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&stock=1&s=1&click=0&page=1 proxy=, err= <class 'pycurl.error'> (28, 'Connection timed out after 30000 milliseconds')

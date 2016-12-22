@@ -1,0 +1,1 @@
+2016-12-22 11:00:14 FAIL : req http://item.tuhu.cn/List/Tires/1/CP_Tire_AspectRatio=60&CP_Tire_Rim=20&CP_Tire_Width=215.html#ProductFilter proxy=, err= <class 'pycurl.error'> (28, 'Connection timed out after 30000 milliseconds')

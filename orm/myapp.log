@@ -1,0 +1,215 @@
+Thu, 15 Dec 2016 12:06:30 base.py[line:110] INFO Scan ORMapping Like...
+Thu, 15 Dec 2016 12:06:30 base.py[line:118] INFO [ Mapping ] Found mapping: first_like => <StringField:first_like, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 12:06:30 base.py[line:118] INFO [ Mapping ] Found mapping: second_like => <LongField:second_like, <type 'float'>, default(0), UI>
+Thu, 15 Dec 2016 12:06:30 base.py[line:110] INFO Scan ORMapping User...
+Thu, 15 Dec 2016 12:06:30 base.py[line:118] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 12:06:30 base.py[line:118] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 14:53:27 base.py[line:110] INFO Scan ORMapping Like...
+Thu, 15 Dec 2016 14:53:27 base.py[line:118] INFO [ Mapping ] Found mapping: first_like => <StringField:first_like, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 14:53:27 base.py[line:118] INFO [ Mapping ] Found mapping: second_like => <LongField:second_like, <type 'float'>, default(0), UI>
+Thu, 15 Dec 2016 14:53:27 base.py[line:110] INFO Scan ORMapping User...
+Thu, 15 Dec 2016 14:53:27 base.py[line:118] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 14:53:27 base.py[line:118] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 14:53:51 base.py[line:110] INFO Scan ORMapping Like...
+Thu, 15 Dec 2016 14:53:51 base.py[line:118] INFO [ Mapping ] Found mapping: first_like => <StringField:first_like, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 14:53:51 base.py[line:118] INFO [ Mapping ] Found mapping: second_like => <LongField:second_like, <type 'float'>, default(0), UI>
+Thu, 15 Dec 2016 14:53:51 base.py[line:110] INFO Scan ORMapping User...
+Thu, 15 Dec 2016 14:53:51 base.py[line:118] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 14:53:51 base.py[line:118] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:23:03 base.py[line:110] INFO Scan ORMapping Battery...
+Thu, 15 Dec 2016 15:23:03 base.py[line:118] INFO [ Mapping ] Found mapping: batteryId => <IntegerField:batteryId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:23:03 base.py[line:118] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:24:12 base.py[line:110] INFO Scan ORMapping Battery...
+Thu, 15 Dec 2016 15:24:12 base.py[line:119] INFO [ Mapping ] Found mapping: batteryId => <IntegerField:batteryId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:24:12 base.py[line:119] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:24:12 base.py[line:119] INFO [ Mapping ] Found mapping: image => <StringField:image, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:24:12 base.py[line:119] INFO [ Mapping ] Found mapping: carModelId => <IntegerField:carModelId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:24:12 base.py[line:119] INFO [ Mapping ] Found mapping: _id => <StringField:_id, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:25:20 base.py[line:110] INFO Scan ORMapping Battery...
+Thu, 15 Dec 2016 15:25:20 base.py[line:119] INFO [ Mapping ] Found mapping: batteryId => <IntegerField:batteryId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:25:20 base.py[line:119] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:25:20 base.py[line:119] INFO [ Mapping ] Found mapping: image => <StringField:image, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:25:20 base.py[line:119] INFO [ Mapping ] Found mapping: carModelId => <IntegerField:carModelId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:25:20 base.py[line:119] INFO [ Mapping ] Found mapping: _id => <StringField:_id, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:25:59 base.py[line:110] INFO Scan ORMapping Battery...
+Thu, 15 Dec 2016 15:25:59 base.py[line:119] INFO [ Mapping ] Found mapping: batteryId => <IntegerField:batteryId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:25:59 base.py[line:119] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:25:59 base.py[line:119] INFO [ Mapping ] Found mapping: image => <StringField:image, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:25:59 base.py[line:119] INFO [ Mapping ] Found mapping: carModelId => <IntegerField:carModelId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:25:59 base.py[line:119] INFO [ Mapping ] Found mapping: _id => <StringField:_id, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:26:49 base.py[line:110] INFO Scan ORMapping Battery...
+Thu, 15 Dec 2016 15:26:49 base.py[line:119] INFO [ Mapping ] Found mapping: batteryId => <IntegerField:batteryId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:26:49 base.py[line:119] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:26:49 base.py[line:119] INFO [ Mapping ] Found mapping: image => <StringField:image, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:26:49 base.py[line:119] INFO [ Mapping ] Found mapping: carModelId => <IntegerField:carModelId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:26:49 base.py[line:119] INFO [ Mapping ] Found mapping: _id => <StringField:_id, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:27:14 base.py[line:110] INFO Scan ORMapping Battery...
+Thu, 15 Dec 2016 15:27:14 base.py[line:119] INFO [ Mapping ] Found mapping: batteryId => <IntegerField:batteryId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:27:14 base.py[line:119] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:27:14 base.py[line:119] INFO [ Mapping ] Found mapping: image => <StringField:image, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:27:14 base.py[line:119] INFO [ Mapping ] Found mapping: carModelId => <IntegerField:carModelId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:27:14 base.py[line:119] INFO [ Mapping ] Found mapping: _id => <StringField:_id, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:28:01 base.py[line:110] INFO Scan ORMapping Battery...
+Thu, 15 Dec 2016 15:28:01 base.py[line:119] INFO [ Mapping ] Found mapping: batteryId => <IntegerField:batteryId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:28:01 base.py[line:119] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:28:01 base.py[line:119] INFO [ Mapping ] Found mapping: image => <StringField:image, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:28:01 base.py[line:119] INFO [ Mapping ] Found mapping: carModelId => <IntegerField:carModelId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:28:01 base.py[line:119] INFO [ Mapping ] Found mapping: _id => <StringField:_id, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:28:35 base.py[line:110] INFO Scan ORMapping Battery...
+Thu, 15 Dec 2016 15:28:35 base.py[line:119] INFO [ Mapping ] Found mapping: batteryId => <IntegerField:batteryId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:28:35 base.py[line:119] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:28:35 base.py[line:119] INFO [ Mapping ] Found mapping: image => <StringField:image, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:28:35 base.py[line:119] INFO [ Mapping ] Found mapping: carModelId => <IntegerField:carModelId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:28:35 base.py[line:119] INFO [ Mapping ] Found mapping: _id => <StringField:_id, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:45:38 base.py[line:110] INFO Scan ORMapping Battery...
+Thu, 15 Dec 2016 15:45:38 base.py[line:120] INFO [ Mapping ] Found mapping: batteryId => <IntegerField:batteryId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:45:38 base.py[line:120] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:46:05 base.py[line:110] INFO Scan ORMapping Like...
+Thu, 15 Dec 2016 15:46:05 base.py[line:120] INFO [ Mapping ] Found mapping: first_like => <StringField:first_like, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:46:05 base.py[line:120] INFO [ Mapping ] Found mapping: second_like => <LongField:second_like, <type 'float'>, default(0), UI>
+Thu, 15 Dec 2016 15:46:05 base.py[line:110] INFO Scan ORMapping User...
+Thu, 15 Dec 2016 15:46:05 base.py[line:120] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:46:05 base.py[line:120] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:46:16 base.py[line:110] INFO Scan ORMapping Battery...
+Thu, 15 Dec 2016 15:46:16 base.py[line:120] INFO [ Mapping ] Found mapping: batteryId => <IntegerField:batteryId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:46:16 base.py[line:120] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:47:35 base.py[line:110] INFO Scan ORMapping Battery...
+Thu, 15 Dec 2016 15:47:35 base.py[line:120] INFO [ Mapping ] Found mapping: batteryId => <IntegerField:batteryId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:47:35 base.py[line:120] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:47:40 base.py[line:120] INFO [ Mapping ] Found mapping: image => <StringField:image, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:47:40 base.py[line:120] INFO [ Mapping ] Found mapping: carModelId => <IntegerField:carModelId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:47:40 base.py[line:120] INFO [ Mapping ] Found mapping: _id => <StringField:_id, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:47:57 base.py[line:110] INFO Scan ORMapping Battery...
+Thu, 15 Dec 2016 15:47:57 base.py[line:120] INFO [ Mapping ] Found mapping: batteryId => <IntegerField:batteryId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:47:57 base.py[line:120] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:47:57 base.py[line:120] INFO [ Mapping ] Found mapping: image => <StringField:image, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 15:47:57 base.py[line:120] INFO [ Mapping ] Found mapping: carModelId => <IntegerField:carModelId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 15:47:57 base.py[line:120] INFO [ Mapping ] Found mapping: _id => <StringField:_id, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:01:47 base.py[line:110] INFO Scan ORMapping Battery...
+Thu, 15 Dec 2016 17:01:47 base.py[line:120] INFO [ Mapping ] Found mapping: batteryId => <IntegerField:batteryId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 17:01:47 base.py[line:120] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:02:00 base.py[line:120] INFO [ Mapping ] Found mapping: image => <StringField:image, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:02:00 base.py[line:120] INFO [ Mapping ] Found mapping: carModelId => <IntegerField:carModelId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 17:02:00 base.py[line:120] INFO [ Mapping ] Found mapping: _id => <StringField:_id, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:36:01 base.py[line:110] INFO Scan ORMapping CarInfo...
+Thu, 15 Dec 2016 17:36:01 base.py[line:120] INFO [ Mapping ] Found mapping: modelName => <StringField:modelName, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:36:01 base.py[line:120] INFO [ Mapping ] Found mapping: battery => <StringField:battery, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:36:01 base.py[line:120] INFO [ Mapping ] Found mapping: seriesName => <StringField:seriesName, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:36:01 base.py[line:120] INFO [ Mapping ] Found mapping: brandName => <StringField:brandName, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:36:01 base.py[line:120] INFO [ Mapping ] Found mapping: carModelId => <IntegerField:carModelId, <type 'int'>, default(0), UI>
+Thu, 15 Dec 2016 17:36:01 base.py[line:120] INFO [ Mapping ] Found mapping: _id => <StringField:_id, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:44:41 base.py[line:111] INFO Scan ORMapping Product...
+Thu, 15 Dec 2016 17:44:41 base.py[line:121] INFO [ Mapping ] Found mapping: itemId => <StringField:itemId, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:44:41 base.py[line:121] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:44:41 base.py[line:121] INFO [ Mapping ] Found mapping: price => <FloatField:price, <type 'float'>, default(0.0), UI>
+Thu, 15 Dec 2016 17:44:41 base.py[line:121] INFO [ Mapping ] Found mapping: updateTime => <LongField:updateTime, <type 'float'>, default(0), UI>
+Thu, 15 Dec 2016 17:44:41 base.py[line:121] INFO [ Mapping ] Found mapping: createTime => <LongField:createTime, <type 'float'>, default(0), UI>
+Thu, 15 Dec 2016 17:44:41 base.py[line:121] INFO [ Mapping ] Found mapping: source => <StringField:source, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:44:41 base.py[line:121] INFO [ Mapping ] Found mapping: _id => <StringField:_id, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:44:41 base.py[line:121] INFO [ Mapping ] Found mapping: brand => <StringField:brand, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:53:34 base.py[line:111] INFO Scan ORMapping Tyre...
+Thu, 15 Dec 2016 17:53:34 base.py[line:121] INFO [ Mapping ] Found mapping: itemId => <StringField:itemId, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:53:34 base.py[line:121] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:53:34 base.py[line:121] INFO [ Mapping ] Found mapping: source => <StringField:source, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:53:34 base.py[line:121] INFO [ Mapping ] Found mapping: url => <StringField:url, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:53:34 base.py[line:121] INFO [ Mapping ] Found mapping: pattern => <StringField:pattern, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:53:34 base.py[line:121] INFO [ Mapping ] Found mapping: price => <FloatField:price, <type 'float'>, default(0.0), UI>
+Thu, 15 Dec 2016 17:53:34 base.py[line:121] INFO [ Mapping ] Found mapping: updateTime => <LongField:updateTime, <type 'float'>, default(0), UI>
+Thu, 15 Dec 2016 17:53:34 base.py[line:121] INFO [ Mapping ] Found mapping: specs => <StringField:specs, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:53:34 base.py[line:121] INFO [ Mapping ] Found mapping: width => <StringField:width, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:53:34 base.py[line:121] INFO [ Mapping ] Found mapping: rat => <StringField:rat, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:53:34 base.py[line:121] INFO [ Mapping ] Found mapping: rim => <StringField:rim, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:53:34 base.py[line:121] INFO [ Mapping ] Found mapping: _id => <StringField:_id, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:53:34 base.py[line:121] INFO [ Mapping ] Found mapping: speed => <StringField:speed, <type 'str'>, default(), UI>
+Thu, 15 Dec 2016 17:53:34 base.py[line:121] INFO [ Mapping ] Found mapping: createTime => <LongField:createTime, <type 'float'>, default(0), UI>
+Fri, 16 Dec 2016 10:35:01 base.py[line:111] INFO Scan ORMapping CarInfo...
+Fri, 16 Dec 2016 10:35:01 base.py[line:121] INFO [ Mapping ] Found mapping: modelName => <StringField:modelName, <type 'str'>, default(), UI>
+Fri, 16 Dec 2016 10:35:01 base.py[line:121] INFO [ Mapping ] Found mapping: battery => <StringField:battery, <type 'str'>, default(), UI>
+Fri, 16 Dec 2016 10:35:01 base.py[line:121] INFO [ Mapping ] Found mapping: seriesName => <StringField:seriesName, <type 'str'>, default(), UI>
+Fri, 16 Dec 2016 10:35:01 base.py[line:121] INFO [ Mapping ] Found mapping: brandName => <StringField:brandName, <type 'str'>, default(), UI>
+Fri, 16 Dec 2016 10:35:01 base.py[line:121] INFO [ Mapping ] Found mapping: carModelId => <IntegerField:carModelId, <type 'int'>, default(0), UI>
+Fri, 16 Dec 2016 10:35:01 base.py[line:121] INFO [ Mapping ] Found mapping: _id => <StringField:_id, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:53:35 base.py[line:111] INFO Scan ORMapping Tyre...
+Thu, 22 Dec 2016 15:53:35 base.py[line:121] INFO [ Mapping ] Found mapping: itemId => <StringField:itemId, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:53:35 base.py[line:121] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:53:35 base.py[line:121] INFO [ Mapping ] Found mapping: source => <StringField:source, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:53:35 base.py[line:121] INFO [ Mapping ] Found mapping: url => <StringField:url, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:53:35 base.py[line:121] INFO [ Mapping ] Found mapping: pattern => <StringField:pattern, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:53:35 base.py[line:121] INFO [ Mapping ] Found mapping: price => <FloatField:price, <type 'float'>, default(0.0), UI>
+Thu, 22 Dec 2016 15:53:35 base.py[line:121] INFO [ Mapping ] Found mapping: updateTime => <LongField:updateTime, <type 'float'>, default(0), UI>
+Thu, 22 Dec 2016 15:53:35 base.py[line:121] INFO [ Mapping ] Found mapping: specs => <StringField:specs, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:53:35 base.py[line:121] INFO [ Mapping ] Found mapping: width => <StringField:width, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:53:35 base.py[line:121] INFO [ Mapping ] Found mapping: rat => <StringField:rat, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:53:35 base.py[line:121] INFO [ Mapping ] Found mapping: rim => <StringField:rim, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:53:35 base.py[line:121] INFO [ Mapping ] Found mapping: speed => <StringField:speed, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:53:35 base.py[line:121] INFO [ Mapping ] Found mapping: createTime => <LongField:createTime, <type 'float'>, default(0), UI>
+Thu, 22 Dec 2016 15:54:19 base.py[line:111] INFO Scan ORMapping Tyre...
+Thu, 22 Dec 2016 15:54:19 base.py[line:121] INFO [ Mapping ] Found mapping: itemId => <StringField:itemId, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:54:19 base.py[line:121] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:54:19 base.py[line:121] INFO [ Mapping ] Found mapping: source => <StringField:source, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:54:19 base.py[line:121] INFO [ Mapping ] Found mapping: url => <StringField:url, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:54:19 base.py[line:121] INFO [ Mapping ] Found mapping: pattern => <StringField:pattern, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:54:19 base.py[line:121] INFO [ Mapping ] Found mapping: price => <FloatField:price, <type 'float'>, default(0.0), UI>
+Thu, 22 Dec 2016 15:54:19 base.py[line:121] INFO [ Mapping ] Found mapping: updateTime => <LongField:updateTime, <type 'float'>, default(0), UI>
+Thu, 22 Dec 2016 15:54:19 base.py[line:121] INFO [ Mapping ] Found mapping: specs => <StringField:specs, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:54:19 base.py[line:121] INFO [ Mapping ] Found mapping: width => <StringField:width, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:54:19 base.py[line:121] INFO [ Mapping ] Found mapping: rat => <StringField:rat, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:54:19 base.py[line:121] INFO [ Mapping ] Found mapping: rim => <StringField:rim, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:54:19 base.py[line:121] INFO [ Mapping ] Found mapping: speed => <StringField:speed, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 15:54:19 base.py[line:121] INFO [ Mapping ] Found mapping: createTime => <LongField:createTime, <type 'float'>, default(0), UI>
+Thu, 22 Dec 2016 16:26:51 base.py[line:111] INFO Scan ORMapping Tyre...
+Thu, 22 Dec 2016 16:26:51 base.py[line:121] INFO [ Mapping ] Found mapping: itemId => <StringField:itemId, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:26:51 base.py[line:121] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:26:51 base.py[line:121] INFO [ Mapping ] Found mapping: source => <StringField:source, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:26:51 base.py[line:121] INFO [ Mapping ] Found mapping: url => <StringField:url, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:26:51 base.py[line:121] INFO [ Mapping ] Found mapping: pattern => <StringField:pattern, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:26:51 base.py[line:121] INFO [ Mapping ] Found mapping: price => <FloatField:price, <type 'float'>, default(0.0), UI>
+Thu, 22 Dec 2016 16:26:51 base.py[line:121] INFO [ Mapping ] Found mapping: updateTime => <LongField:updateTime, <type 'float'>, default(0), UI>
+Thu, 22 Dec 2016 16:26:51 base.py[line:121] INFO [ Mapping ] Found mapping: specs => <StringField:specs, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:26:51 base.py[line:121] INFO [ Mapping ] Found mapping: width => <StringField:width, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:26:51 base.py[line:121] INFO [ Mapping ] Found mapping: rat => <StringField:rat, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:26:51 base.py[line:121] INFO [ Mapping ] Found mapping: rim => <StringField:rim, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:26:51 base.py[line:121] INFO [ Mapping ] Found mapping: speed => <StringField:speed, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:26:51 base.py[line:121] INFO [ Mapping ] Found mapping: createTime => <LongField:createTime, <type 'float'>, default(0), UI>
+Thu, 22 Dec 2016 16:27:03 base.py[line:111] INFO Scan ORMapping Tyre...
+Thu, 22 Dec 2016 16:27:03 base.py[line:121] INFO [ Mapping ] Found mapping: itemId => <StringField:itemId, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:27:03 base.py[line:121] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:27:03 base.py[line:121] INFO [ Mapping ] Found mapping: source => <StringField:source, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:27:03 base.py[line:121] INFO [ Mapping ] Found mapping: url => <StringField:url, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:27:03 base.py[line:121] INFO [ Mapping ] Found mapping: pattern => <StringField:pattern, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:27:03 base.py[line:121] INFO [ Mapping ] Found mapping: price => <FloatField:price, <type 'float'>, default(0.0), UI>
+Thu, 22 Dec 2016 16:27:03 base.py[line:121] INFO [ Mapping ] Found mapping: updateTime => <LongField:updateTime, <type 'float'>, default(0), UI>
+Thu, 22 Dec 2016 16:27:03 base.py[line:121] INFO [ Mapping ] Found mapping: specs => <StringField:specs, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:27:03 base.py[line:121] INFO [ Mapping ] Found mapping: width => <StringField:width, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:27:03 base.py[line:121] INFO [ Mapping ] Found mapping: rat => <StringField:rat, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:27:03 base.py[line:121] INFO [ Mapping ] Found mapping: rim => <StringField:rim, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:27:03 base.py[line:121] INFO [ Mapping ] Found mapping: speed => <StringField:speed, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:27:03 base.py[line:121] INFO [ Mapping ] Found mapping: createTime => <LongField:createTime, <type 'float'>, default(0), UI>
+Thu, 22 Dec 2016 16:30:38 base.py[line:111] INFO Scan ORMapping Tyre...
+Thu, 22 Dec 2016 16:30:38 base.py[line:121] INFO [ Mapping ] Found mapping: itemId => <StringField:itemId, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:38 base.py[line:121] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:38 base.py[line:121] INFO [ Mapping ] Found mapping: source => <StringField:source, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:38 base.py[line:121] INFO [ Mapping ] Found mapping: url => <StringField:url, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:38 base.py[line:121] INFO [ Mapping ] Found mapping: pattern => <StringField:pattern, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:38 base.py[line:121] INFO [ Mapping ] Found mapping: price => <FloatField:price, <type 'float'>, default(0.0), UI>
+Thu, 22 Dec 2016 16:30:38 base.py[line:121] INFO [ Mapping ] Found mapping: updateTime => <LongField:updateTime, <type 'float'>, default(0), UI>
+Thu, 22 Dec 2016 16:30:38 base.py[line:121] INFO [ Mapping ] Found mapping: specs => <StringField:specs, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:38 base.py[line:121] INFO [ Mapping ] Found mapping: width => <StringField:width, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:38 base.py[line:121] INFO [ Mapping ] Found mapping: rat => <StringField:rat, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:38 base.py[line:121] INFO [ Mapping ] Found mapping: rim => <StringField:rim, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:38 base.py[line:121] INFO [ Mapping ] Found mapping: speed => <StringField:speed, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:38 base.py[line:121] INFO [ Mapping ] Found mapping: createTime => <LongField:createTime, <type 'float'>, default(0), UI>
+Thu, 22 Dec 2016 16:30:57 base.py[line:111] INFO Scan ORMapping Tyre...
+Thu, 22 Dec 2016 16:30:57 base.py[line:121] INFO [ Mapping ] Found mapping: itemId => <StringField:itemId, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:57 base.py[line:121] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:57 base.py[line:121] INFO [ Mapping ] Found mapping: source => <StringField:source, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:57 base.py[line:121] INFO [ Mapping ] Found mapping: url => <StringField:url, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:57 base.py[line:121] INFO [ Mapping ] Found mapping: pattern => <StringField:pattern, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:57 base.py[line:121] INFO [ Mapping ] Found mapping: price => <FloatField:price, <type 'float'>, default(0.0), UI>
+Thu, 22 Dec 2016 16:30:57 base.py[line:121] INFO [ Mapping ] Found mapping: updateTime => <LongField:updateTime, <type 'float'>, default(0), UI>
+Thu, 22 Dec 2016 16:30:57 base.py[line:121] INFO [ Mapping ] Found mapping: specs => <StringField:specs, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:57 base.py[line:121] INFO [ Mapping ] Found mapping: width => <StringField:width, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:57 base.py[line:121] INFO [ Mapping ] Found mapping: rat => <StringField:rat, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:57 base.py[line:121] INFO [ Mapping ] Found mapping: rim => <StringField:rim, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:57 base.py[line:121] INFO [ Mapping ] Found mapping: speed => <StringField:speed, <type 'str'>, default(), UI>
+Thu, 22 Dec 2016 16:30:57 base.py[line:121] INFO [ Mapping ] Found mapping: createTime => <LongField:createTime, <type 'float'>, default(0), UI>
