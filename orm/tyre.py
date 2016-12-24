@@ -5,6 +5,7 @@
 
 from orm.base import Model, StringField, FloatField, LongField
 from store.impl_mgo.tyre_store import TyreStore
+from store.impl_file.tyre_store import TyreFileStore
 
 
 class Tyre(Model):
@@ -27,18 +28,17 @@ class Tyre(Model):
     db_config = {
 
         "mongo_storer": TyreStore(),
+        "file_storer":TyreFileStore(),
 
         # 用来切换数据库
         "switch": {
 
             "mongo": 1,
-            "file": 0,
+            "file": 1,
         }
     }
 
 if __name__ == '__main__':
     t = Tyre()
-    r = t.get({})
-    for s in r:
-        print s
-    # print r
+    t.name = "123"
+    t.insert("file")

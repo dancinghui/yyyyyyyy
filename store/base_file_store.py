@@ -42,7 +42,19 @@ class BaseFileStore(BaseStore):
             self.file_save_path_exists = True
 
         self.file_save_path = file_save_path
-        self.client = self.file_save_class(file_save_path, 'ab+')
+        self.client = self.file_save_class(file_save_path, 'wb')
+
+
+    @property
+    def save_file_path(self):
+        return self.file_save_path
+
+    def set_csv_headers(self, params):
+        keys = params
+        self.client.set_header(keys)
+        self.is_set_header = True
+
+        return keys
 
 
 

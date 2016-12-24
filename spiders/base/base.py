@@ -13,13 +13,18 @@ import socket
 import os
 import json
 import random
+from ConfigParser import ConfigParser
 from util.other_util import utf8str, TimeUtil
 from spiders.base.runtime import Log
 from spiders.base.exceptions import SpiderErrors, AccountErrors, LoginErrors
-
+from util.mail import EmailHelper
+from exepts.emailException import EmailInitException
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 
 class BaseTask(object):
+
 
     def __init__(self, task_name, queue_size=200, thread_cnt=10):
 
@@ -42,6 +47,8 @@ class BaseTask(object):
 
         self._tls = threading.local()
         self._r_lock = threading.RLock()
+
+        self.Default_EMAIL_RECEIVER = ["jianghao@91htw.com"]
 
     def add_main_job(self, job):
         while True:
@@ -252,17 +259,54 @@ class BaseTask(object):
 
                 return
 
+    def load_ini_file(self, filepath):
+        parser = ConfigParser()
+        f = open(filepath,'rb')
+        parser.readfp(f)
+
+        f.close()
+        return parser
+
+    def fetch_option_value(self, parser, common_section, spec_section, option):
+        if not parser.has_option(spec_section, option):
+            return parser.get(common_section, option)
+        else:
+            return parser.get(spec_section, option)
+
+
+    def init_email(self, section="spider_part"):
+        email_conf = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../conf/email_conf.ini")
+        send_user_name = None
+        send_user_pwd = None
+        smtp_host = None
+        smtp_port = 465
+
+        common_section = "common"
+
+        parser = self.load_ini_file(email_conf)
+
+        if not parser.has_section(section):
+            raise Exception("section: %s not exists in file : %s" % (section, email_conf))
+
+        send_user_name = self.fetch_option_value(parser, common_section, section, "send_user_name")
+        send_user_pwd = self.fetch_option_value(parser, common_section, section, "send_user_pwd")
+        smtp_host = self.fetch_option_value(parser, common_section, section, "smtp_host")
+        smtp_port = int(self.fetch_option_value(parser, common_section, section, "smtp_port"))
+
+        receive_users = self.fetch_option_value(parser, common_section, section, "receive_users").split(";")
+
+        self.Default_EMAIL_RECEIVER = receive_users
+
+        if not send_user_name or not send_user_pwd:
+            raise EmailInitException("need send_user_name and send_user_pwd")
+
+        return EmailHelper(send_user_name, send_user_pwd, smtp_host, smtp_port)
+
+    def conf_parse(self, line):
+        return line.split("=")[1].strip()
+
 if __name__ == '__main__':
-    class T(BaseTask):
-        def __init__(self):
-            BaseTask.__init__(self, "test", 200, 1)
-
-        def dispatcher(self, q):
-            self.add_main_job({"main":1})
-
-        def run_job(self, job):
-            raise IndexError("just for test")
+    c = BaseTask("123")
+    c.init_email()
 
 
-    s = T()
-    s.run()

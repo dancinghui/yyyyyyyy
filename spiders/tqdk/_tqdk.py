@@ -42,7 +42,6 @@ class TqdkSpider(BaseSpider):
 
 
 
-
 if __name__ == '__main__':
     s = TqdkSpider(1)
     s.run()

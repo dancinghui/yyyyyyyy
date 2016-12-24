@@ -4,8 +4,6 @@
 #__author__ == 'godlikeme'
 
 from spiders.base.base import BaseTask
-from util.mail import EmailHelper
-from exepts.emailException import EmailInitException
 from spiders.base.httpreq import SpeedControlRequests, SessionRequests
 from spiders.base.runtime import Log
 from spiders.base.exceptions import AccountErrors, LoginErrors, SpiderErrors
@@ -17,8 +15,6 @@ import threading
 
 class BaseSpider(BaseTask, SpeedControlRequests):
 
-    Default_EMAIL_RECEIVER = ["jianghao@91htw.com"]
-
     def __init__(self, spider_name, queue_size=200, thread_cnt=10):
         BaseTask.__init__(self, spider_name, queue_size, thread_cnt)
         SpeedControlRequests.__init__(self)
@@ -27,43 +23,10 @@ class BaseSpider(BaseTask, SpeedControlRequests):
         self.email_helper = self.init_email()
         self.filters = []
 
-    def init_email(self):
-        email_conf = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../conf/email.conf")
-        send_user_name = None
-        send_user_pwd = None
-        smtp_host = "smtp.exmail.qq.com"
-        smtp_port = 465
-
-        with open(email_conf, "rb") as f:
-            for line in f:
-                if "send_user_name" in line:
-                    send_user_name = self.conf_parse(line)
-                    continue
-                if "send_user_pwd" in line:
-                    send_user_pwd = self.conf_parse(line)
-                    continue
-                if "smtp_host" in line:
-                    smtp_host = self.conf_parse(line)
-                    continue
-                if "smtp_port" in line:
-                    smtp_port = self.conf_parse(line)
-                    continue
-
-                if "receive_users" in line:
-                    for e in self.conf_parse(line).split(";"):
-                        BaseSpider.Default_EMAIL_RECEIVER.append(e.strip())
-
-        if not send_user_name or not send_user_pwd:
-            raise EmailInitException("need send_user_name and send_user_pwd")
-
-        return EmailHelper(send_user_name, send_user_pwd, smtp_host, smtp_port)
-
-    def conf_parse(self, line):
-        return line.split("=")[1].strip()
 
     def end_operation(self, msg):
         if "msg" in msg:
-            self.email_helper.send_email(BaseSpider.Default_EMAIL_RECEIVER, self.task_name, msg["msg"])
+            self.email_helper.send_email(self.Default_EMAIL_RECEIVER, self.task_name, msg["msg"])
 
     def dispatcher(self, q):
         for i in range(100):

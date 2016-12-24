@@ -152,6 +152,8 @@ class ModelMataClass(type):
         attrs['__mgo_client__'] = mgo_client
         attrs['__file_client__'] = file_client
 
+        attrs['__default_export_fields__'] = mappings.keys()
+
         return type.__new__(cls, name, bases, attrs)
 
 
@@ -179,7 +181,7 @@ class Model(dict):
         """
         self[key] = value
 
-    def insert(self):
+    def insert(self, which_db="mongo"):
         params = {}
         for k, v in self.__mappings__.iteritems():
             if not hasattr(self, k):
@@ -190,10 +192,14 @@ class Model(dict):
         if pk not in params:
             raise Exception(" insert doc need primary key")
         key = {pk: params.get(pk)}
-        if self.__mgo_client__:
+        if "mongo" in which_db:
+            if not self.__mgo_client__:
+                raise Exception("need init mongo client")
             self.__mgo_client__.insert(key, params)
 
-        if self.__file_client__:
+        if "file" in which_db:
+            if not self.__file_client__:
+                raise Exception("need init file client")
             self.__file_client__.insert(key, params)
 
 
@@ -232,15 +238,18 @@ class Model(dict):
             return item
         return None
 
+    def export_file_path(self):
+        return self.db_config["file_storer"].file_save_path
+
+
 if __name__ == '__main__':
-    class Like(Model):
-        first_like = StringField()
-        second_like = LongField()
+
     class User(Model):
-        name = StringField()
+        name = StringField(primary_key=True)
         age = IntegerField()
-        like = Like()
 
 
-    print User.__mappings__
+    s = User()
+
+
 

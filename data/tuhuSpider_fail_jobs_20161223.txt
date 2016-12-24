@@ -1,0 +1,8 @@
+{"width": "215", "rat": "75", "rim": "15", "page": "1", "fail_time": 3}
+{"width": "215", "rat": "70", "rim": "15", "page": "1", "fail_time": 3}
+{"width": "155", "rat": "80", "rim": "13", "page": "1", "fail_time": 3}
+{"width": "235", "rat": "85", "rim": "16", "page": "1", "fail_time": 3}
+{"width": "235", "rat": "75", "rim": "15", "page": "1", "fail_time": 3}
+{"width": "205", "rat": "70", "rim": "15", "page": "1", "fail_time": 3}
+{"width": "245", "rat": "45", "rim": "19", "page": "1", "fail_time": 3}
+{"width": "245", "rat": "70", "rim": "16", "page": "1", "fail_time": 3}
