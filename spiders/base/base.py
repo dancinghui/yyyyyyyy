@@ -247,6 +247,7 @@ class BaseTask(object):
             msg = "[pid=%d]job:%s prog:%s\n" % (os.getpid(), cjstr, prog)
             try:
                 s.sendto(msg, ("127.0.0.1", self._log_port))
+
             except Exception as e:
                 pass
 

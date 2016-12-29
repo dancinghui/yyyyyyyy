@@ -10,13 +10,14 @@ usage = """
   Usage : python main_schedule.py -s spider:thread_cnt -e export:thread_cnt:clz_param
 
           example:
-                python main_schedule.py -s JdTuhuSpider:1 -e TyreExport:1:{\\"query\\":{\\"source\\":\\"qccr\\"}}
+                python main_schedule.py -s JdTuhuSpider:1 -e TyreExport:1:{\\"query\\":{\\"source\\":\\"mailuntai\\"}}
 """
 
 print usage
 
+spider_schedule = SpiderSchedule()
+spider_schedule.run()
+
 export_shedule = ExporterSchedule()
 export_shedule.run()
 
-spider_schedule = SpiderSchedule()
-spider_schedule.run()

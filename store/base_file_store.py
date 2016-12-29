@@ -15,6 +15,13 @@ class BaseFileStore(BaseStore):
         BaseStore.__init__(self)
         self.file_save_class=file_save_class
 
+    def check_headers(self):
+        with open(self.file_save_path, 'rb') as f:
+            for line in f:
+                if line.strip():
+                    self.is_set_header=True
+                    break
+
     def load_file_config(self, section):
         file_conf_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../conf/file_conf.ini")
         configParser = ConfigParser.ConfigParser()

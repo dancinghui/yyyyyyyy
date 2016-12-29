@@ -4,31 +4,30 @@
 #__author__ == 'godlikeme'
 
 from orm.base import Model, StringField, FloatField, LongField
-from store.impl_mgo.tyre_store import TyreStore
-from store.impl_file.tyre_store import TyreFileStore
+from store.factory import TyreStoreFactory
 
 
 class Tyre(Model):
 
     itemId = StringField(primary_key=True)
-    name = StringField()
-    price = FloatField()
-    width = StringField()
-    rat = StringField()
-    rim = StringField()
+    name = StringField(desc="名称")
+    price = FloatField(desc="价格")
+    width = StringField(desc="胎面宽")
+    rat = StringField(desc="扁平比")
+    rim = StringField(desc="直径")
 
-    source = StringField()
-    createTime = LongField()
-    updateTime = LongField()
-    pattern = StringField()
-    speed = StringField()
-    specs = StringField()
-    url = StringField()
+    source = StringField(desc="来源")
+    createTime = LongField(desc="创建时间")
+    updateTime = LongField(desc="更新时间")
+    pattern = StringField(desc="花纹")
+    speed = StringField(desc="级别")
+    specs = StringField(desc="规格")
+    url = StringField(desc="来源网址")
 
     db_config = {
 
-        "mongo_storer": TyreStore(),
-        "file_storer":TyreFileStore(),
+        "mongo_storer": TyreStoreFactory.getTyreStore("mongo"),
+        "file_storer":TyreStoreFactory.getTyreStore("file"),
 
         # 用来切换数据库
         "switch": {
@@ -37,6 +36,7 @@ class Tyre(Model):
             "file": 1,
         }
     }
+
 
 if __name__ == '__main__':
     t = Tyre()

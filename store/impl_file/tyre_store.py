@@ -16,17 +16,13 @@ class TyreFileStore(BaseFileStore):
             self.is_set_header = False
             self.check_headers()
 
-    def check_headers(self):
-        with open(self.file_save_path, 'rb') as f:
-            for line in f:
-                if line.strip():
-                    self.is_set_header=True
-                    break
-
     def insert(self, key, params):
         if not self.is_set_header:
             from orm.tyre import Tyre
-            self.headers = self.set_csv_headers(Tyre.__default_export_fields__)
+            self.header_keys = Tyre.__default_export_fields__
+            self.headers = [Tyre.__mapping_keys_desc__[k] for k in self.header_keys]
 
-        row = [params.get(key, "") for key in self.headers]
+            self.set_csv_headers(self.headers)
+
+        row = [params.get(key, "") for key in self.header_keys]
         self.client.append_row(row)

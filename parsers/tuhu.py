@@ -56,10 +56,10 @@ class TuhuParse(TypeParse):
             price = tr.xpath('.//div[@class="price"]/strong/text()')[0]
             price = self.format_price(price)
 
-            title = self.remove_tag(el_title.text, 1)
+            title = self.remove_tag(el_title.text)
             if not title:
                 el_span = tr.xpath('.//a[starts-with(@class, "DisplayName")]/span[@class="prompt"]')[0]
-                title = self.remove_tag(el_span.tail, 1)
+                title = self.remove_tag(el_span.tail)
 
             itemUrl = el_title.attrib["href"]
 

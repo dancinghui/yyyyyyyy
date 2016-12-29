@@ -1,0 +1,2 @@
+{"url": "http://search.jd.com/Search?keyword=麦轮胎&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&stock=1&s=%d&click=0&page=%d", "fail_time": 3, "mainjob": 1, "page": 1}
+{"url": "http://search.jd.com/Search?keyword=麦轮胎&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&stock=1&s=%d&click=0&page=%d", "fail_time": 3, "mainjob": 1, "page": 1}

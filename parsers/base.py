@@ -25,20 +25,36 @@ class Parse(object):
 
     @staticmethod
     def remove_tag(s, fmt=False):
+        s = s.strip()
         if fmt:
             r = re.sub(r'<br>|<p>|<BR>', '\n', s)
             r = re.sub(r'(<[^>]*>)', '', r)
             r = re.sub(r'&nbsp;', ' ', r)
             r = re.sub(r'[\t\r ]+', ' ', r)
             r = re.sub(r'\s+\n+\s+', '\n', r)
-            r = re.sub(r'^\s+|\s+$', '', r)
+
+            r = re.sub(r'^\s+', '', r)
+            r = re.sub(r'\s+$', '', r)
+
+            r = re.sub(r'\xc2\xa0$', '', r)
+            r = re.sub(r'^\xe3\x80', '', r)
+
         else:
             r = re.sub(r'(<[^>]*>)', '', s)
             r = re.sub(r'&nbsp;', ' ', r)
+            r = re.sub(r'\xc2\xa0$', '', r)
+            r = re.sub(r'^\xe3\x80', '', r)
         return r
 
     @classmethod
     def format_price(cls, price):
+
+        if isinstance(price, unicode):
+             price = price.encode('utf-8')
+
+        find = re.search(r'(\d+)元', price) #定价：296元
+        if find:
+            return float(find.group(1))
 
         price = re.sub('[¥,]', '', price)
 

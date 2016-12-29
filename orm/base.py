@@ -17,6 +17,7 @@ class Field(object):
         self.insertable = kwargs.get('insertable', True)
         self.ddl = kwargs.get('ddl', str)
         self._order = Field._count
+        self.desc = kwargs.get('desc','')
         Field._count += 1
 
     @property
@@ -94,7 +95,6 @@ class LongField(Field):
         super(LongField, self).__init__(**kw)
 
 
-
 class ModelMataClass(type):
     def __new__(cls, name, bases, attrs):
         if name == "Model":
@@ -118,6 +118,8 @@ class ModelMataClass(type):
             if isinstance(v, Field):
                 if not v.name:
                     v.name = k
+                if not v.desc:
+                    v.desc = v.name
                 logger1.info('[ Mapping ] Found mapping: %s => %s' % (k, v))
 
                 if v.primary_key:
@@ -129,7 +131,7 @@ class ModelMataClass(type):
                 mappings[k] = v
 
             if isinstance(v, Model):
-                mappings[k] = v.__mappings__
+                mappings[k] = v
 
             if k == "db_config":
                 if "mongo_storer" in v and v["switch"]["mongo"]:
@@ -140,19 +142,28 @@ class ModelMataClass(type):
         for k in mappings.iterkeys():
             attrs.pop(k)
 
-        if '__mappings__' not in attrs:
-            attrs['__mappings__'] = mappings
-        else:
-            attrs['__mappings__'].update(mappings)
+        # if '__mappings__' not in attrs:
+        attrs['__mappings__'] = mappings
+        # else:
+        #     attrs['__mappings__'].update(mappings)
 
         if not primary_key:
-            raise Exception("need a primary key")
-        attrs['__primary_key__'] = primary_key.name
+            logger1.info("need a primary key; if this is a embbeded field, ignore this info")
+        else:
+            attrs['__primary_key__'] = primary_key.name
 
         attrs['__mgo_client__'] = mgo_client
         attrs['__file_client__'] = file_client
 
         attrs['__default_export_fields__'] = mappings.keys()
+
+        descs = []
+        for k, v in mappings.items():
+            if isinstance(v, Field):
+                descs.append((k, v.desc))
+            if isinstance(v, Model):
+                descs.append((k, v.__desc__))
+        attrs['__mapping_keys_desc__'] = dict(descs)
 
         return type.__new__(cls, name, bases, attrs)
 
@@ -163,6 +174,11 @@ class Model(dict):
 
     def __init__(self, **kw):
         super(Model, self).__init__(**kw)
+        clz_name = self.__class__.__name__
+        if "desc" in kw:
+            self.__desc__ = kw.get("desc")
+        else:
+            self.__desc__ = clz_name[0].lower() + clz_name[1:]
 
     def __getattr__(self, key):
         """
@@ -181,12 +197,28 @@ class Model(dict):
         """
         self[key] = value
 
-    def insert(self, which_db="mongo"):
+    def dictz(self):
         params = {}
+        print self.__mappings__
         for k, v in self.__mappings__.iteritems():
+            if k == "__desc__":
+                continue
             if not hasattr(self, k):
-                setattr(self, k, v.default)
-            params[v.name] = v.ddl(getattr(self, k))
+                if isinstance(v, Field):
+                    setattr(self, k, v.default)
+                else:
+                    setattr(self, k, {})
+            value_ = getattr(self, k)
+            if isinstance(v, Field):
+                params[v.name] = v.ddl(value_)
+            elif isinstance(v, Model):
+                params[k] = value_.dictz()
+
+        return params
+
+
+    def insert(self, which_db="mongo"):
+        params = self.dictz()
 
         pk = self.__primary_key__
         if pk not in params:
@@ -244,12 +276,29 @@ class Model(dict):
 
 if __name__ == '__main__':
 
+    class User1(Model):
+        name = StringField()
+        age = IntegerField()
+
     class User(Model):
         name = StringField(primary_key=True)
         age = IntegerField()
+        user1 = User1(desc="haoz")
 
 
     s = User()
+    m = User1()
+
+    print s.__mappings__
+    print s.__mapping_keys_desc__
+    print m.__mappings__
+    print m.__mapping_keys_desc__
+    s.name = "jianghao"
+    s.age = 18
+    s.user1=User1()
+    s.user1.name = "xxx"
+    s.user1.age = "1234"
+    print s.dictz()
 
 
 

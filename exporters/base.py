@@ -16,4 +16,7 @@ class BasicExport(BaseTask):
 
     def end_operation(self, msg):
         reader = open(self.file_path, "rb")
+
         self.mail_helper.send_email_attach(self.Default_EMAIL_RECEIVER, self.task_name, "===export data===", {"%s.csv" % self.task_name: reader})
+
+

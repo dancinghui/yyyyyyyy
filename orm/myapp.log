@@ -320,3 +320,237 @@ Fri, 23 Dec 2016 17:12:42 base.py[line:121] INFO [ Mapping ] Found mapping: rat 
 Fri, 23 Dec 2016 17:12:42 base.py[line:121] INFO [ Mapping ] Found mapping: rim => <StringField:rim, <type 'str'>, default(), UI>
 Fri, 23 Dec 2016 17:12:42 base.py[line:121] INFO [ Mapping ] Found mapping: speed => <StringField:speed, <type 'str'>, default(), UI>
 Fri, 23 Dec 2016 17:12:42 base.py[line:121] INFO [ Mapping ] Found mapping: createTime => <LongField:createTime, <type 'float'>, default(0), UI>
+Thu, 29 Dec 2016 10:50:43 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 10:50:43 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 10:50:43 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 10:50:43 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 10:51:13 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 10:51:13 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 10:51:13 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 10:51:13 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 10:51:13 base.py[line:112] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 10:51:13 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 10:51:13 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 10:52:05 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 10:52:05 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 10:52:05 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 10:52:05 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 10:52:47 base.py[line:112] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 10:52:47 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 10:52:47 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:04:12 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:04:12 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:04:12 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:04:12 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:05:12 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:05:12 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:05:12 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:05:12 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:06:20 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:06:20 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:06:20 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:06:20 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:06:24 base.py[line:112] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:06:24 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:06:24 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:06:49 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:06:49 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:06:49 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:06:49 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:10:10 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:10:10 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:10:10 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:10:10 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:11:20 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:11:20 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:11:20 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:11:20 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:12:56 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:12:56 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:12:56 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:12:56 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:13:09 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:13:09 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:13:09 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:13:09 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:14:02 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:14:02 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:14:02 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:14:02 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:14:07 base.py[line:112] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:14:07 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:14:07 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:31:53 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:31:53 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:31:53 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:31:53 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:31:53 base.py[line:112] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:31:53 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:31:53 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:31:59 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:31:59 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:31:59 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:31:59 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:31:59 base.py[line:112] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:31:59 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:31:59 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:32:19 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:32:19 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:32:19 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:32:19 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:32:19 base.py[line:112] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:32:19 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:32:19 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:33:26 base.py[line:112] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:33:26 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:33:26 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:33:26 base.py[line:152] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:33:26 base.py[line:112] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:33:26 base.py[line:124] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:33:26 base.py[line:124] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:43:09 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:43:09 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:43:09 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:43:09 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:43:09 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:43:09 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:43:09 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:44:09 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:44:09 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:44:09 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:44:09 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:44:09 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:44:09 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:44:09 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:45:12 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:45:12 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:45:12 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:45:12 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:45:12 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:45:12 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:45:12 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:46:54 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:46:54 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:46:54 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:46:54 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:46:54 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:46:54 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:46:54 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:47:27 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:47:27 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:47:27 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:47:27 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:47:27 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:47:27 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:47:27 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:48:40 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:48:40 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:48:40 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:48:40 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:48:40 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:48:40 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:49:09 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:50:31 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:50:31 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:50:31 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:50:31 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:50:31 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:50:31 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:50:32 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:56:55 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:56:55 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:56:55 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:56:55 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:56:55 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:56:55 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:56:57 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:57:28 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 11:57:28 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:57:28 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 11:57:28 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 11:57:28 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 11:57:28 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 11:57:30 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:06:08 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 12:06:08 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:06:08 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:06:08 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 12:06:08 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 12:06:08 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:06:10 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:07:06 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 12:07:06 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:07:06 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:07:06 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 12:07:06 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 12:07:06 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:07:39 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 12:07:39 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:07:39 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:07:39 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 12:07:39 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 12:07:39 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:07:41 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:07:53 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 12:07:53 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:07:53 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:07:53 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 12:07:53 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 12:07:53 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:07:54 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:11:03 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 12:11:03 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:11:03 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:11:03 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 12:11:03 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 12:11:03 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:11:05 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:13:06 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 12:13:06 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:13:06 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:13:06 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 12:13:06 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 12:13:06 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:13:08 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:16:54 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 12:16:54 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:16:54 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:16:54 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 12:16:54 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 12:16:54 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:16:55 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:19:57 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 12:19:57 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:19:57 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:19:57 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 12:19:57 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 12:19:57 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:19:59 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:20:32 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 12:20:32 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:20:32 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:20:32 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 12:20:32 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 12:20:32 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:20:33 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:21:18 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 12:21:18 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:21:18 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:21:18 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 12:21:18 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 12:21:18 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:21:19 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:22:40 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 12:22:40 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:22:40 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 12:22:40 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 12:22:40 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 12:22:40 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 12:22:41 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 15:18:02 base.py[line:111] INFO Scan ORMapping User1...
+Thu, 29 Dec 2016 15:18:02 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 15:18:02 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
+Thu, 29 Dec 2016 15:18:02 base.py[line:151] INFO need a primary key; if this is a embbeded field, ignore this info
+Thu, 29 Dec 2016 15:18:02 base.py[line:111] INFO Scan ORMapping User...
+Thu, 29 Dec 2016 15:18:02 base.py[line:123] INFO [ Mapping ] Found mapping: age => <IntegerField:age, <type 'int'>, default(0), UI>
+Thu, 29 Dec 2016 15:18:04 base.py[line:123] INFO [ Mapping ] Found mapping: name => <StringField:name, <type 'str'>, default(), UI>
